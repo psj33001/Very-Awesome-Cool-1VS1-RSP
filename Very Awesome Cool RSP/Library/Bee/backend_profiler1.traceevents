@@ -1,0 +1,504 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1722427360623469, "dur":1854, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1722427360625328, "dur":80, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1722427360625424, "dur":21, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1722427360625445, "dur":856, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1722427360626360, "dur":452, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1722427360626812, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1722427360737670, "dur":270, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1722427360737940, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1722427360737953, "dur":14, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1722427360737967, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1722427360737977, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1722427360737979, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1722427360737985, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1722427360737987, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1722427360737993, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1722427360737994, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1722427360738000, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1722427360738001, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1722427360738007, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1722427360738009, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1722427360738015, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1722427360738017, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1722427360738023, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1722427360738024, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1722427360738030, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1722427360738032, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1722427360738038, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1722427360738039, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1722427360738046, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1722427360738047, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1722427360738053, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1722427360738073, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1722427360738082, "dur":27749, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1722427360626299, "dur":523, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1722427360626825, "dur":7874, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1722427360634715, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1722427360634732, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1722427360637832, "dur":416, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1722427360638253, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1722427360638384, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1722427360638844, "dur":2284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1722427360641129, "dur":284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1722427360641417, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1722427360642528, "dur":4501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1722427360647194, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1722427360647366, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1722427360647370, "dur":4705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1722427360652256, "dur":525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1722427360652784, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1722427360652788, "dur":5734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1722427360658751, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1722427360658928, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1722427360658933, "dur":5221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1722427360664323, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1722427360664485, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1722427360664489, "dur":4822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1722427360669427, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1722427360669561, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1722427360669564, "dur":5260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1722427360675152, "dur":1011, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1722427360676168, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1722427360676183, "dur":5178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1722427360681553, "dur":664, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1722427360682220, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1722427360682249, "dur":4366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1722427360686788, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1722427360686911, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1722427360686915, "dur":4686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1722427360691907, "dur":285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1722427360692194, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1722427360692198, "dur":6240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1722427360698587, "dur":313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1722427360698902, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1722427360698904, "dur":21157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1722427360720210, "dur":17489, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1722427360626443, "dur":402, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1722427360626845, "dur":7892, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1722427360634738, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1722427360634967, "dur":857, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1722427360635825, "dur":899, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1722427360636724, "dur":315, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1722427360637040, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722427360637264, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1722427360639341, "dur":5280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722427360644893, "dur":393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722427360645289, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1722427360645294, "dur":5244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722427360650712, "dur":456, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722427360651171, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1722427360651175, "dur":4741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722427360656048, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722427360656216, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1722427360656219, "dur":5440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722427360661865, "dur":503, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722427360662373, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1722427360662379, "dur":5429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722427360667973, "dur":281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722427360668258, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1722427360668265, "dur":5456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722427360674143, "dur":2128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722427360676273, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1722427360676278, "dur":5666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722427360682164, "dur":518, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722427360682685, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1722427360682688, "dur":4892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722427360687843, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722427360688023, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1722427360688029, "dur":4479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722427360692674, "dur":407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722427360693084, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1722427360693088, "dur":5180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1722427360698448, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1722427360698643, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1722427360698645, "dur":21629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1722427360720420, "dur":17263, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1722427360626380, "dur":453, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1722427360626833, "dur":7901, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1722427360634734, "dur":331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1722427360635065, "dur":1239, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1722427360636305, "dur":619, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1722427360636924, "dur":192, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1722427360637117, "dur":564, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1722427360637684, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1722427360640066, "dur":6933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1722427360647128, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1722427360647299, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1722427360647305, "dur":4850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1722427360652532, "dur":263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1722427360652797, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1722427360652802, "dur":6765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1722427360660075, "dur":281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1722427360660359, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1722427360660365, "dur":5723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1722427360666267, "dur":215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1722427360666486, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1722427360666491, "dur":5673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1722427360672281, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1722427360672407, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1722427360672410, "dur":5777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1722427360678359, "dur":740, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":3, "ts":1722427360679103, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1722427360679109, "dur":4593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":3, "ts":1722427360684298, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1722427360684471, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1722427360684475, "dur":5555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1722427360690336, "dur":331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1722427360690671, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1722427360690676, "dur":6952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1722427360697789, "dur":320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1722427360698111, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1722427360698128, "dur":21136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1722427360719430, "dur":18233, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1722427360626503, "dur":350, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1722427360626853, "dur":7883, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1722427360634737, "dur":343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1722427360635080, "dur":1225, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1722427360636305, "dur":590, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1722427360636895, "dur":173, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1722427360637069, "dur":510, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1722427360637581, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1722427360639988, "dur":5970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1722427360646262, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1722427360646454, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1722427360646458, "dur":5064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1722427360651681, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1722427360651887, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1722427360651892, "dur":5260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1722427360657365, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1722427360657568, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1722427360657571, "dur":4278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1722427360662096, "dur":477, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1722427360662576, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1722427360662580, "dur":5189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1722427360667933, "dur":328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1722427360668264, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1722427360668268, "dur":5436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1722427360674019, "dur":1397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1722427360675420, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1722427360675424, "dur":6005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1722427360681645, "dur":500, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":4, "ts":1722427360682148, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1722427360682152, "dur":4333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":4, "ts":1722427360686655, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1722427360686861, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1722427360686864, "dur":4706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1722427360691858, "dur":436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1722427360692298, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1722427360692313, "dur":5721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1722427360698245, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1722427360698431, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1722427360698442, "dur":21814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1722427360720407, "dur":17284, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1722427360626571, "dur":324, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1722427360626895, "dur":7806, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1722427360634715, "dur":284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1722427360634999, "dur":1064, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1722427360636063, "dur":739, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1722427360636802, "dur":257, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1722427360637060, "dur":412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1722427360637562, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1722427360639803, "dur":6181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1722427360646262, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1722427360646453, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1722427360646458, "dur":4691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1722427360651305, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1722427360651493, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1722427360651498, "dur":5564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1722427360657276, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1722427360657429, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1722427360657436, "dur":4332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1722427360661932, "dur":629, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1722427360662564, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1722427360662571, "dur":5163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1722427360667925, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1722427360668087, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1722427360668093, "dur":5097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1722427360673311, "dur":637, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1722427360673953, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1722427360673990, "dur":5419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1722427360679588, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":5, "ts":1722427360679766, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1722427360679772, "dur":4773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":5, "ts":1722427360684727, "dur":315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1722427360685044, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1722427360685048, "dur":5337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1722427360690707, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1722427360690866, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1722427360690870, "dur":5727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1722427360696817, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1722427360697019, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1722427360697022, "dur":22115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1722427360719318, "dur":18350, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1722427360626699, "dur":204, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1722427360626903, "dur":7799, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1722427360634715, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1722427360634873, "dur":369, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1722427360635243, "dur":1210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1722427360636454, "dur":529, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1722427360636984, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP.exe" }}
+,{ "pid":12345, "tid":6, "ts":1722427360637188, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1722427360637192, "dur":3586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP.exe" }}
+,{ "pid":12345, "tid":6, "ts":1722427360640958, "dur":714, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722427360641676, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1722427360642562, "dur":4792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722427360647477, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722427360647612, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1722427360647615, "dur":4502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722427360652290, "dur":484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722427360652777, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1722427360652781, "dur":5210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722427360658125, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722427360658370, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1722427360658374, "dur":4771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722427360663288, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722427360663445, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1722427360663450, "dur":4427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722427360668048, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722427360668282, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1722427360668285, "dur":5760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722427360674346, "dur":561, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722427360674910, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1722427360674916, "dur":4803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722427360679881, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722427360680043, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1722427360680049, "dur":5192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722427360685409, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722427360685570, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1722427360685574, "dur":5978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722427360691881, "dur":379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722427360692263, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1722427360692266, "dur":5927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1722427360698349, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1722427360698477, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1722427360698479, "dur":21221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1722427360720028, "dur":17680, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1722427360626789, "dur":133, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1722427360626923, "dur":7815, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1722427360634738, "dur":253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1722427360634991, "dur":922, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1722427360635914, "dur":884, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1722427360636798, "dur":278, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1722427360637076, "dur":491, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1722427360637569, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1722427360639842, "dur":4788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1722427360644800, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1722427360645031, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1722427360645039, "dur":4560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1722427360649752, "dur":1164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1722427360650919, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1722427360650924, "dur":4364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1722427360655460, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1722427360655623, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1722427360655630, "dur":4520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1722427360660365, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1722427360660562, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1722427360660566, "dur":4426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1722427360665155, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1722427360665307, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1722427360665313, "dur":6354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1722427360671839, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1722427360672025, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1722427360672030, "dur":5268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1722427360677467, "dur":746, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":7, "ts":1722427360678217, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1722427360678224, "dur":5452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":7, "ts":1722427360684046, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1722427360684243, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1722427360684247, "dur":5092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1722427360689524, "dur":372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1722427360689899, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1722427360689904, "dur":4322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1722427360694399, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1722427360694566, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1722427360694719, "dur":2616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1722427360697494, "dur":678, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1722427360698174, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1722427360698179, "dur":21167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1722427360719983, "dur":17747, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1722427360626854, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1722427360626854, "dur":7859, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1722427360634714, "dur":407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1722427360635121, "dur":1265, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1722427360636387, "dur":524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722427360636912, "dur":205, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1722427360637118, "dur":515, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722427360637636, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1722427360640046, "dur":6262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722427360646511, "dur":240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722427360646753, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1722427360646757, "dur":5202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722427360652154, "dur":250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722427360652406, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1722427360652409, "dur":5545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722427360658098, "dur":240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722427360658341, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1722427360658362, "dur":4996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722427360663537, "dur":401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722427360663942, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1722427360663979, "dur":6059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722427360670175, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722427360670295, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1722427360670298, "dur":6354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722427360677138, "dur":1378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722427360678543, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1722427360678546, "dur":5179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722427360684069, "dur":259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722427360684330, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1722427360684334, "dur":5974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722427360690475, "dur":287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722427360690787, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1722427360690791, "dur":4717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1722427360695892, "dur":997, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":8, "ts":1722427360696892, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1722427360696898, "dur":35738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":8, "ts":1722427360732752, "dur":4922, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1722427360626958, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1722427360626959, "dur":7776, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1722427360634735, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1722427360634927, "dur":795, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1722427360635722, "dur":1036, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1722427360636758, "dur":297, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1722427360637056, "dur":543, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1722427360637603, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1722427360640030, "dur":6520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1722427360646735, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1722427360646888, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1722427360646892, "dur":4607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1722427360651672, "dur":417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1722427360652092, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1722427360652095, "dur":5746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1722427360658015, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1722427360658175, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1722427360658179, "dur":5153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1722427360663496, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1722427360663654, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1722427360663658, "dur":4402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1722427360668383, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1722427360668537, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1722427360668545, "dur":5763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1722427360674795, "dur":806, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":9, "ts":1722427360675603, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1722427360675607, "dur":5384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":9, "ts":1722427360681146, "dur":494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":9, "ts":1722427360681645, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1722427360681652, "dur":4110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":9, "ts":1722427360685927, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1722427360686058, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1722427360686061, "dur":5338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1722427360691638, "dur":341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1722427360691982, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1722427360691988, "dur":5377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1722427360697553, "dur":1575, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":9, "ts":1722427360699130, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1722427360699133, "dur":20346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":9, "ts":1722427360719662, "dur":18002, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1722427360627018, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1722427360627019, "dur":7720, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1722427360634739, "dur":533, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1722427360635272, "dur":1208, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1722427360636481, "dur":476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":10, "ts":1722427360636958, "dur":214, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1722427360637173, "dur":523, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1722427360637699, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1722427360639775, "dur":5440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1722427360645407, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1722427360645598, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1722427360645603, "dur":4982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1722427360650849, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1722427360651022, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1722427360651026, "dur":4561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1722427360655730, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1722427360655880, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1722427360655883, "dur":5096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1722427360661118, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1722427360661288, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1722427360661292, "dur":4880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1722427360666381, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1722427360666569, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1722427360666574, "dur":6094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1722427360672793, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1722427360672902, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1722427360672905, "dur":4697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1722427360677798, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":10, "ts":1722427360678018, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1722427360678023, "dur":5063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":10, "ts":1722427360683271, "dur":1071, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1722427360684355, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1722427360684361, "dur":4513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1722427360689032, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":10, "ts":1722427360689147, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1722427360689150, "dur":4783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":10, "ts":1722427360694121, "dur":18764, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":10, "ts":1722427360712890, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1722427360716400, "dur":3524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":10, "ts":1722427360720084, "dur":17631, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1722427360627059, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1722427360627059, "dur":7644, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1722427360634714, "dur":463, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1722427360635178, "dur":1250, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1722427360636428, "dur":529, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1722427360636957, "dur":189, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1722427360637147, "dur":553, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1722427360637704, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1722427360639807, "dur":5874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1722427360645850, "dur":277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1722427360646130, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1722427360646134, "dur":4943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1722427360651244, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1722427360651401, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1722427360651407, "dur":4562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1722427360656088, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1722427360656245, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1722427360656250, "dur":5009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1722427360661399, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1722427360661551, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1722427360661554, "dur":4956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1722427360666684, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1722427360666839, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1722427360666843, "dur":6079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1722427360673046, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1722427360673175, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1722427360673178, "dur":5113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1722427360678435, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":11, "ts":1722427360678554, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1722427360678557, "dur":4481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":11, "ts":1722427360683278, "dur":488, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1722427360683769, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1722427360683776, "dur":4207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1722427360688267, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1722427360688437, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1722427360688441, "dur":4047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1722427360692654, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1722427360692843, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1722427360692848, "dur":5436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1722427360698459, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":11, "ts":1722427360698638, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1722427360698641, "dur":20846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":11, "ts":1722427360719962, "dur":17760, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1722427360627180, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1722427360627180, "dur":7525, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1722427360634715, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1722427360634881, "dur":631, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1722427360635513, "dur":1159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1722427360636672, "dur":338, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1722427360637011, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":12, "ts":1722427360637131, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1722427360638631, "dur":40884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":12, "ts":1722427360679649, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":12, "ts":1722427360679835, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1722427360679839, "dur":4655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":12, "ts":1722427360684649, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":12, "ts":1722427360684833, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1722427360684837, "dur":5003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":12, "ts":1722427360690014, "dur":266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":12, "ts":1722427360690282, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1722427360690286, "dur":6043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":12, "ts":1722427360696664, "dur":694, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Very Awesome Cool 1VS1 RSP_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1722427360697361, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1722427360697364, "dur":40115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Very Awesome Cool 1VS1 RSP_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1722427360737622, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":12, "ts":1722427360737624, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1722427360767319, "dur":1605, "ph":"X", "name": "ProfilerWriteOutput" }
+,
