@@ -29,9 +29,9 @@ public class FaceScript : MonoBehaviour
         }
     }
 
-    void Update()
+    void FixedUpdate()
     {
-        transform.position = Vector3.Lerp(transform.position, player.face_pos, 6f*Time.deltaTime);
+        transform.position = Vector3.Lerp(transform.position, player.face_pos, 0.1f);
         //transform.rotation = Quaternion.Lerp(transform.rotation, rot, 0.1f);
         switch(player.face_state) {
             case "loby":

@@ -20,7 +20,7 @@ public class lighting : MonoBehaviour
     void Update()
     {
         timer += Time.deltaTime;
-        transform.localScale = new Vector2(0.9f + 0.1f*Mathf.Cos(timer*1.0f), 5.0f);
+        transform.localScale = new Vector2(0.65f + 0.05f*Mathf.Cos(timer*1.0f), 5.0f);
         if(manager.totalWinner == 1) {transform.position = player1.GetFacePos() + new Vector3(0, 14f, 0);}
         else if(manager.totalWinner == 2) {transform.position = player2.GetFacePos() + new Vector3(0, 14f, 0);}
         else {gameObject.SetActive(false);}

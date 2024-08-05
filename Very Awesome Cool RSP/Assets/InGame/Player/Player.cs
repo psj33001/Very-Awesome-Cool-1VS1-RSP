@@ -36,6 +36,12 @@ public class Player : MonoBehaviour
         SetLobbyFace();
     }
 
+    public void DirectMove() {
+        hand_obj.transform.position = hand_pos;
+        hand_obj.transform.rotation = hand_rot;
+        face_obj.transform.position = face_pos;
+    }
+
     public Vector3 GetFacePos() {
         return face_obj.transform.position;
     }

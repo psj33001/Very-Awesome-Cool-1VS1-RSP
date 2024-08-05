@@ -1,0 +1,369 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Void Background::Start()
+extern void Background_Start_mE85E1738F8CF767670907703177A11DDB3599DD3 (void);
+// 0x00000002 System.Collections.IEnumerator Background::ChangeBackgroundColor()
+extern void Background_ChangeBackgroundColor_mE844D6BFA8017099ED228C6DA5F6FB5DDDC9D890 (void);
+// 0x00000003 System.Void Background::Update()
+extern void Background_Update_m3F6064B5F66C02B5AE62F3B5BB0F5C0895B45864 (void);
+// 0x00000004 System.Void Background::.ctor()
+extern void Background__ctor_m361E75593F0FD78AB0D52667D8EAFBB10ACD0BF8 (void);
+// 0x00000005 System.Void Background/<ChangeBackgroundColor>d__6::.ctor(System.Int32)
+extern void U3CChangeBackgroundColorU3Ed__6__ctor_mB5D8774929169977427108C45FF7D27DF4AFD655 (void);
+// 0x00000006 System.Void Background/<ChangeBackgroundColor>d__6::System.IDisposable.Dispose()
+extern void U3CChangeBackgroundColorU3Ed__6_System_IDisposable_Dispose_mEFEC929A573E12665329CA27C81A6502BC1B9B4B (void);
+// 0x00000007 System.Boolean Background/<ChangeBackgroundColor>d__6::MoveNext()
+extern void U3CChangeBackgroundColorU3Ed__6_MoveNext_m295A4D52311BAA8C83EC4E7BEE1CF6333C4164AB (void);
+// 0x00000008 System.Object Background/<ChangeBackgroundColor>d__6::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CChangeBackgroundColorU3Ed__6_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m42477519A89205BE8A2C8F831B3A0AA50B5AB861 (void);
+// 0x00000009 System.Void Background/<ChangeBackgroundColor>d__6::System.Collections.IEnumerator.Reset()
+extern void U3CChangeBackgroundColorU3Ed__6_System_Collections_IEnumerator_Reset_m08D2B0F55EC8CC8D17F85B3FCE103C3904B62AED (void);
+// 0x0000000A System.Object Background/<ChangeBackgroundColor>d__6::System.Collections.IEnumerator.get_Current()
+extern void U3CChangeBackgroundColorU3Ed__6_System_Collections_IEnumerator_get_Current_m6853818E738DDC20CE804C4ABF117FE592D174F7 (void);
+// 0x0000000B System.Void EffectManager::Effect1()
+extern void EffectManager_Effect1_mA45856BA302C5390F0227B94D1104F0D33BA67E3 (void);
+// 0x0000000C System.Void EffectManager::Effect2()
+extern void EffectManager_Effect2_m8767A10423A393502A35E9B48FAD2BB3936863FE (void);
+// 0x0000000D System.Void EffectManager::Effect2_Reset()
+extern void EffectManager_Effect2_Reset_m185C161AB19FFF835B8B087BD02D4141A7BDEA51 (void);
+// 0x0000000E System.Void EffectManager::Update()
+extern void EffectManager_Update_mE9FD2D3B773857DF7AE78936CC7115C2C1B7271D (void);
+// 0x0000000F System.Void EffectManager::.ctor()
+extern void EffectManager__ctor_m2C6DE35439C018518898E3333004ED208A63D782 (void);
+// 0x00000010 System.Void Manager::Awake()
+extern void Manager_Awake_m8A6DF187F4533B1FB4C8BAD44A1772FC51E1E8CF (void);
+// 0x00000011 System.Void Manager::GameStart()
+extern void Manager_GameStart_mCBE50C5E37A7C5BE2164C505EEA3AE1D4939D50C (void);
+// 0x00000012 System.Void Manager::Update()
+extern void Manager_Update_m1B1B140132649617A2D7FF870578110CF3A49AF1 (void);
+// 0x00000013 System.Void Manager::.ctor()
+extern void Manager__ctor_m657ECC756CD44219E6C63B972C78FD4164A0CE1A (void);
+// 0x00000014 System.Void Bar::Awake()
+extern void Bar_Awake_m86F013DB406C90E488465C6E6FE7DB606DF15F79 (void);
+// 0x00000015 System.Void Bar::Update()
+extern void Bar_Update_m274CB82B255F6105AAF9A40314388F952B040CF3 (void);
+// 0x00000016 System.Void Bar::.ctor()
+extern void Bar__ctor_m46E8DDEB5461554D317F8CF9129F63E65D391DAA (void);
+// 0x00000017 System.Void crown::Start()
+extern void crown_Start_mAFBD9B4774731D3CE13FE3FCF7E4701DEDFA7005 (void);
+// 0x00000018 System.Void crown::Update()
+extern void crown_Update_mCC1B03389DACE59833A95EC5A885E5D7FEE9E802 (void);
+// 0x00000019 System.Void crown::.ctor()
+extern void crown__ctor_mE7AEACF13F52880C8BF80DAFE3F40A8134BC96F7 (void);
+// 0x0000001A System.Void EffectSquare1::Start()
+extern void EffectSquare1_Start_m450937E318BB731743E7615E31FA623CC87221A2 (void);
+// 0x0000001B System.Void EffectSquare1::Update()
+extern void EffectSquare1_Update_m9D59D9DA20DD3789212AEDE3EF185793BC57C024 (void);
+// 0x0000001C System.Void EffectSquare1::.ctor()
+extern void EffectSquare1__ctor_m17E8D43A57AE0F3F67BBBA77FFAE9A58F3442DE9 (void);
+// 0x0000001D System.Void EffectSquare2::Start()
+extern void EffectSquare2_Start_mA3386D01F8238F34D053290919A385DE55A790B3 (void);
+// 0x0000001E System.Void EffectSquare2::Update()
+extern void EffectSquare2_Update_m4BFC35157B250D360E18F6AD67A4AE0B75292E47 (void);
+// 0x0000001F System.Void EffectSquare2::.ctor()
+extern void EffectSquare2__ctor_m4986B925A5CBF778A35B45EFC3878AEC29D5C5FD (void);
+// 0x00000020 System.Void fire::Start()
+extern void fire_Start_mB96EC5DD2E8E201C33FEDF5DDBAA0F4521F05A9C (void);
+// 0x00000021 System.Void fire::Update()
+extern void fire_Update_m16F7E04D383C3DF6D4F6A33EBB350544C8452D3B (void);
+// 0x00000022 System.Void fire::.ctor()
+extern void fire__ctor_m3336CE3A6910C1E508B4090B96DD12CBFBDF471B (void);
+// 0x00000023 System.Void guide_hand::Start()
+extern void guide_hand_Start_mEFE7088FFB38C1551391C9FCDF0B15EDEBB2F252 (void);
+// 0x00000024 System.Void guide_hand::Update()
+extern void guide_hand_Update_m0BD2EC21474ECD73E373F710B436A307673A6BA1 (void);
+// 0x00000025 System.Void guide_hand::.ctor()
+extern void guide_hand__ctor_m7232D535B0B3E58123D186ACB98D25BECD9CD956 (void);
+// 0x00000026 System.Void help::Start()
+extern void help_Start_mAD0C65A6547C59F95AAB5636E4E6D6B837BF8627 (void);
+// 0x00000027 System.Void help::Update()
+extern void help_Update_mF58C663B3A08CA4530D808A5331962EF8DA961B2 (void);
+// 0x00000028 System.Void help::OnPointerDown(UnityEngine.EventSystems.PointerEventData)
+extern void help_OnPointerDown_m382F45D0F26C8502AF8A7E971AF3797D61EB71AB (void);
+// 0x00000029 System.Void help::.ctor()
+extern void help__ctor_m404FF401B2E42D38E1F890052A89E280FE9CF2B0 (void);
+// 0x0000002A System.Void lighting::Start()
+extern void lighting_Start_mBAC1C87F0CB8B1E3E6D17505D52FB0ACDABFEE36 (void);
+// 0x0000002B System.Void lighting::Update()
+extern void lighting_Update_m8E138109114FA524A54A2840EA7A129196D42997 (void);
+// 0x0000002C System.Void lighting::.ctor()
+extern void lighting__ctor_m8522DC85B370A53D2B32F94D2765BAD68F06677D (void);
+// 0x0000002D System.Void FaceScript::Awake()
+extern void FaceScript_Awake_m696830A445B5D0BE9904BD33914508EE5E4032FB (void);
+// 0x0000002E System.Void FaceScript::FixedUpdate()
+extern void FaceScript_FixedUpdate_m21AB42AF4AEBA979EAF1713A5704FD9556D8CD58 (void);
+// 0x0000002F System.Void FaceScript::.ctor()
+extern void FaceScript__ctor_m06DC1599A89248AE8BCCC381BD04C375D33FDB53 (void);
+// 0x00000030 System.Void HandScript::Awake()
+extern void HandScript_Awake_mD15479C254E147D3D280BE2CFBD118824BB7F237 (void);
+// 0x00000031 System.Void HandScript::FixedUpdate()
+extern void HandScript_FixedUpdate_m78286946134DB0F5F77C12BD3639A232C5C85053 (void);
+// 0x00000032 System.Void HandScript::.ctor()
+extern void HandScript__ctor_mC4B4B6ABE30A6B5FF21F276CC7D08216B1A8198F (void);
+// 0x00000033 System.Void RSPshake::Awake()
+extern void RSPshake_Awake_m9ACEAEB30EF5F986C8003C19A6A11A8022A2F883 (void);
+// 0x00000034 System.Void RSPshake::Update()
+extern void RSPshake_Update_m70B2D90CA5D126AA3FC2A3CD8EAACEF1A15406CA (void);
+// 0x00000035 System.Void RSPshake::.ctor()
+extern void RSPshake__ctor_m9B53E34E2A017187A370A47FB85A601B951E5596 (void);
+// 0x00000036 System.Void Player::Awake()
+extern void Player_Awake_m512A28E1559EB8AEEB2E1DB873F9F99FCC96BA67 (void);
+// 0x00000037 System.Void Player::DirectMove()
+extern void Player_DirectMove_m8866F80551BF9B4A0FC86685EC0FD11AC7E51214 (void);
+// 0x00000038 UnityEngine.Vector3 Player::GetFacePos()
+extern void Player_GetFacePos_m8CB6C4EA5EF61C29E1304E8614EE03C33B30118B (void);
+// 0x00000039 System.Void Player::RSPshake()
+extern void Player_RSPshake_m2DD89EEEA07C5A5282E95CFF2165E7CF23164B6B (void);
+// 0x0000003A System.Void Player::SetLobbyFace()
+extern void Player_SetLobbyFace_mF4936B1B412EC4F78F9321580C02FBB55248BE91 (void);
+// 0x0000003B System.Void Player::SetGameFace()
+extern void Player_SetGameFace_m7685A8CE0F886922DDC3D6700767DF644873DDCA (void);
+// 0x0000003C System.Void Player::SetHandsetFace()
+extern void Player_SetHandsetFace_mB4FAAA678C3327A207A76EE89D376482964B6626 (void);
+// 0x0000003D System.Void Player::SetDrawFace()
+extern void Player_SetDrawFace_m46C63CE7CD7B6829621653B3190A66FEDE9C5EB2 (void);
+// 0x0000003E System.Void Player::SetWinFace()
+extern void Player_SetWinFace_mA539848785D8DCEB7F24B1A6C8F4BE63393D73CD (void);
+// 0x0000003F System.Void Player::SetLoseFace()
+extern void Player_SetLoseFace_mFB7C4BBFE64982759859E740DAC8C2A4776CA20C (void);
+// 0x00000040 System.Void Player::AllowInput()
+extern void Player_AllowInput_mA8E43D09BC70EA94769BADC7C83AD0B597511570 (void);
+// 0x00000041 System.Void Player::Update()
+extern void Player_Update_m95E134A5EF1B5164EA281F61D7FA436F59BE3C9F (void);
+// 0x00000042 System.Void Player::.ctor()
+extern void Player__ctor_m0A83E0706592FC871B0CF188B37AFC6649F3D85D (void);
+// 0x00000043 System.Void Space::Start()
+extern void Space_Start_m695CAA4EDF6DBE0564F61C5B038CB6E4EA533F49 (void);
+// 0x00000044 System.Void Space::Update()
+extern void Space_Update_m3A5B10264EC9232ABB72EA2C186533E40CC689DB (void);
+// 0x00000045 System.Void Space::OnPointerDown(UnityEngine.EventSystems.PointerEventData)
+extern void Space_OnPointerDown_mBD79F86A523769986AAE699C69D4087B184728F6 (void);
+// 0x00000046 System.Void Space::OnPointerUp(UnityEngine.EventSystems.PointerEventData)
+extern void Space_OnPointerUp_mA23B2B5C530688E8F4D4E1761F7AD6262DB0605A (void);
+// 0x00000047 System.Void Space::.ctor()
+extern void Space__ctor_m61B3A16115CE74BBE1566B3D98716E47F07A58AF (void);
+// 0x00000048 System.Void Title::Awake()
+extern void Title_Awake_m9A3FE123C84C6F7C357D90DA59C623C3442B2421 (void);
+// 0x00000049 System.Void Title::Update()
+extern void Title_Update_m85F2F516B7B340E4129F6C6971A716CE410025AF (void);
+// 0x0000004A System.Void Title::.ctor()
+extern void Title__ctor_mD048B1928FB56935584ECB8B23993B2F8ED77772 (void);
+// 0x0000004B System.Void Button::Start()
+extern void Button_Start_m2D250D21BF475775E879DEC6B631016C2F1D98AA (void);
+// 0x0000004C System.Void Button::Update()
+extern void Button_Update_m09AD64D785E4E8C6680ABC33917D4079BE9F173F (void);
+// 0x0000004D System.Void Button::OnPointerDown(UnityEngine.EventSystems.PointerEventData)
+extern void Button_OnPointerDown_mF8CCA138D678EFE0FB54123577D22D41212EE2CF (void);
+// 0x0000004E System.Void Button::.ctor()
+extern void Button__ctor_m6CC103D3CBE7ABCDC685DCC02F320D62DCC05D16 (void);
+// 0x0000004F System.Void Toggle::Start()
+extern void Toggle_Start_m61FDC95CA2526858FEB07D7EB337DCCC4C271FE0 (void);
+// 0x00000050 System.Void Toggle::Update()
+extern void Toggle_Update_mFB0CB8F24EF84B4FEE45BF31433D32B0465E7A0D (void);
+// 0x00000051 System.Void Toggle::OnPointerDown(UnityEngine.EventSystems.PointerEventData)
+extern void Toggle_OnPointerDown_m6714DE5730103ECA563E2A26AC53791681217970 (void);
+// 0x00000052 System.Void Toggle::.ctor()
+extern void Toggle__ctor_m2215E96AA142273E39F68756308609BDDD81FD7F (void);
+static Il2CppMethodPointer s_methodPointers[82] = 
+{
+	Background_Start_mE85E1738F8CF767670907703177A11DDB3599DD3,
+	Background_ChangeBackgroundColor_mE844D6BFA8017099ED228C6DA5F6FB5DDDC9D890,
+	Background_Update_m3F6064B5F66C02B5AE62F3B5BB0F5C0895B45864,
+	Background__ctor_m361E75593F0FD78AB0D52667D8EAFBB10ACD0BF8,
+	U3CChangeBackgroundColorU3Ed__6__ctor_mB5D8774929169977427108C45FF7D27DF4AFD655,
+	U3CChangeBackgroundColorU3Ed__6_System_IDisposable_Dispose_mEFEC929A573E12665329CA27C81A6502BC1B9B4B,
+	U3CChangeBackgroundColorU3Ed__6_MoveNext_m295A4D52311BAA8C83EC4E7BEE1CF6333C4164AB,
+	U3CChangeBackgroundColorU3Ed__6_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m42477519A89205BE8A2C8F831B3A0AA50B5AB861,
+	U3CChangeBackgroundColorU3Ed__6_System_Collections_IEnumerator_Reset_m08D2B0F55EC8CC8D17F85B3FCE103C3904B62AED,
+	U3CChangeBackgroundColorU3Ed__6_System_Collections_IEnumerator_get_Current_m6853818E738DDC20CE804C4ABF117FE592D174F7,
+	EffectManager_Effect1_mA45856BA302C5390F0227B94D1104F0D33BA67E3,
+	EffectManager_Effect2_m8767A10423A393502A35E9B48FAD2BB3936863FE,
+	EffectManager_Effect2_Reset_m185C161AB19FFF835B8B087BD02D4141A7BDEA51,
+	EffectManager_Update_mE9FD2D3B773857DF7AE78936CC7115C2C1B7271D,
+	EffectManager__ctor_m2C6DE35439C018518898E3333004ED208A63D782,
+	Manager_Awake_m8A6DF187F4533B1FB4C8BAD44A1772FC51E1E8CF,
+	Manager_GameStart_mCBE50C5E37A7C5BE2164C505EEA3AE1D4939D50C,
+	Manager_Update_m1B1B140132649617A2D7FF870578110CF3A49AF1,
+	Manager__ctor_m657ECC756CD44219E6C63B972C78FD4164A0CE1A,
+	Bar_Awake_m86F013DB406C90E488465C6E6FE7DB606DF15F79,
+	Bar_Update_m274CB82B255F6105AAF9A40314388F952B040CF3,
+	Bar__ctor_m46E8DDEB5461554D317F8CF9129F63E65D391DAA,
+	crown_Start_mAFBD9B4774731D3CE13FE3FCF7E4701DEDFA7005,
+	crown_Update_mCC1B03389DACE59833A95EC5A885E5D7FEE9E802,
+	crown__ctor_mE7AEACF13F52880C8BF80DAFE3F40A8134BC96F7,
+	EffectSquare1_Start_m450937E318BB731743E7615E31FA623CC87221A2,
+	EffectSquare1_Update_m9D59D9DA20DD3789212AEDE3EF185793BC57C024,
+	EffectSquare1__ctor_m17E8D43A57AE0F3F67BBBA77FFAE9A58F3442DE9,
+	EffectSquare2_Start_mA3386D01F8238F34D053290919A385DE55A790B3,
+	EffectSquare2_Update_m4BFC35157B250D360E18F6AD67A4AE0B75292E47,
+	EffectSquare2__ctor_m4986B925A5CBF778A35B45EFC3878AEC29D5C5FD,
+	fire_Start_mB96EC5DD2E8E201C33FEDF5DDBAA0F4521F05A9C,
+	fire_Update_m16F7E04D383C3DF6D4F6A33EBB350544C8452D3B,
+	fire__ctor_m3336CE3A6910C1E508B4090B96DD12CBFBDF471B,
+	guide_hand_Start_mEFE7088FFB38C1551391C9FCDF0B15EDEBB2F252,
+	guide_hand_Update_m0BD2EC21474ECD73E373F710B436A307673A6BA1,
+	guide_hand__ctor_m7232D535B0B3E58123D186ACB98D25BECD9CD956,
+	help_Start_mAD0C65A6547C59F95AAB5636E4E6D6B837BF8627,
+	help_Update_mF58C663B3A08CA4530D808A5331962EF8DA961B2,
+	help_OnPointerDown_m382F45D0F26C8502AF8A7E971AF3797D61EB71AB,
+	help__ctor_m404FF401B2E42D38E1F890052A89E280FE9CF2B0,
+	lighting_Start_mBAC1C87F0CB8B1E3E6D17505D52FB0ACDABFEE36,
+	lighting_Update_m8E138109114FA524A54A2840EA7A129196D42997,
+	lighting__ctor_m8522DC85B370A53D2B32F94D2765BAD68F06677D,
+	FaceScript_Awake_m696830A445B5D0BE9904BD33914508EE5E4032FB,
+	FaceScript_FixedUpdate_m21AB42AF4AEBA979EAF1713A5704FD9556D8CD58,
+	FaceScript__ctor_m06DC1599A89248AE8BCCC381BD04C375D33FDB53,
+	HandScript_Awake_mD15479C254E147D3D280BE2CFBD118824BB7F237,
+	HandScript_FixedUpdate_m78286946134DB0F5F77C12BD3639A232C5C85053,
+	HandScript__ctor_mC4B4B6ABE30A6B5FF21F276CC7D08216B1A8198F,
+	RSPshake_Awake_m9ACEAEB30EF5F986C8003C19A6A11A8022A2F883,
+	RSPshake_Update_m70B2D90CA5D126AA3FC2A3CD8EAACEF1A15406CA,
+	RSPshake__ctor_m9B53E34E2A017187A370A47FB85A601B951E5596,
+	Player_Awake_m512A28E1559EB8AEEB2E1DB873F9F99FCC96BA67,
+	Player_DirectMove_m8866F80551BF9B4A0FC86685EC0FD11AC7E51214,
+	Player_GetFacePos_m8CB6C4EA5EF61C29E1304E8614EE03C33B30118B,
+	Player_RSPshake_m2DD89EEEA07C5A5282E95CFF2165E7CF23164B6B,
+	Player_SetLobbyFace_mF4936B1B412EC4F78F9321580C02FBB55248BE91,
+	Player_SetGameFace_m7685A8CE0F886922DDC3D6700767DF644873DDCA,
+	Player_SetHandsetFace_mB4FAAA678C3327A207A76EE89D376482964B6626,
+	Player_SetDrawFace_m46C63CE7CD7B6829621653B3190A66FEDE9C5EB2,
+	Player_SetWinFace_mA539848785D8DCEB7F24B1A6C8F4BE63393D73CD,
+	Player_SetLoseFace_mFB7C4BBFE64982759859E740DAC8C2A4776CA20C,
+	Player_AllowInput_mA8E43D09BC70EA94769BADC7C83AD0B597511570,
+	Player_Update_m95E134A5EF1B5164EA281F61D7FA436F59BE3C9F,
+	Player__ctor_m0A83E0706592FC871B0CF188B37AFC6649F3D85D,
+	Space_Start_m695CAA4EDF6DBE0564F61C5B038CB6E4EA533F49,
+	Space_Update_m3A5B10264EC9232ABB72EA2C186533E40CC689DB,
+	Space_OnPointerDown_mBD79F86A523769986AAE699C69D4087B184728F6,
+	Space_OnPointerUp_mA23B2B5C530688E8F4D4E1761F7AD6262DB0605A,
+	Space__ctor_m61B3A16115CE74BBE1566B3D98716E47F07A58AF,
+	Title_Awake_m9A3FE123C84C6F7C357D90DA59C623C3442B2421,
+	Title_Update_m85F2F516B7B340E4129F6C6971A716CE410025AF,
+	Title__ctor_mD048B1928FB56935584ECB8B23993B2F8ED77772,
+	Button_Start_m2D250D21BF475775E879DEC6B631016C2F1D98AA,
+	Button_Update_m09AD64D785E4E8C6680ABC33917D4079BE9F173F,
+	Button_OnPointerDown_mF8CCA138D678EFE0FB54123577D22D41212EE2CF,
+	Button__ctor_m6CC103D3CBE7ABCDC685DCC02F320D62DCC05D16,
+	Toggle_Start_m61FDC95CA2526858FEB07D7EB337DCCC4C271FE0,
+	Toggle_Update_mFB0CB8F24EF84B4FEE45BF31433D32B0465E7A0D,
+	Toggle_OnPointerDown_m6714DE5730103ECA563E2A26AC53791681217970,
+	Toggle__ctor_m2215E96AA142273E39F68756308609BDDD81FD7F,
+};
+static const int32_t s_InvokerIndices[82] = 
+{
+	3439,
+	3347,
+	3439,
+	3439,
+	2793,
+	3439,
+	3288,
+	3347,
+	3439,
+	3347,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	2810,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3431,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	2810,
+	2810,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	3439,
+	2810,
+	3439,
+	3439,
+	3439,
+	2810,
+	3439,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	82,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};

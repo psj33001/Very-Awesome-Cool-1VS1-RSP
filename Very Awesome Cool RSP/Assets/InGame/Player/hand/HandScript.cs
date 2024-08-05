@@ -25,10 +25,10 @@ public class HandScript : MonoBehaviour
         }
     }
 
-    void Update()
+    void FixedUpdate()
     {
-        transform.position = Vector3.Lerp(transform.position, player.hand_pos, 6f*Time.deltaTime);
-        transform.rotation = Quaternion.Lerp(transform.rotation, player.hand_rot, 6f*Time.deltaTime);
+        transform.position = Vector3.Lerp(transform.position, player.hand_pos, 0.1f);
+        transform.rotation = Quaternion.Lerp(transform.rotation, player.hand_rot, 0.1f);
         spriteRenderer.sprite = sprites[player.hand_sprite];
     }
 }
