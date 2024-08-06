@@ -35,3 +35,11 @@ There's a WinTime system which decides the winner.
 While you're winning the RSP game, your WinTime increases.
 
 The player with higher WinTime becomes winner.
+
+
+## Downloads
+Google Drive link : https://drive.google.com/drive/folders/1wln-SBbIOGr-RMhxWp7iIMhrZOoavnfr
+
+Last update version : v1.1
+
+Platform : Android / Window
