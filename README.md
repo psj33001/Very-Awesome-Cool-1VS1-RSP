@@ -5,20 +5,20 @@ This is a common 1vs1 Rock Scissors Paper game with some special rules.
 ## How to Play
 < Player 1 >
 
-Q key : Rock
+   Q key : Rock
 
-W key : Scissors
+   W key : Scissors
 
-E key : Paper
+   E key : Paper
  
 
 < Player 2 >
 
-I key : Rock
+   I key : Rock
 
-O key : Scissors
+   O key : Scissors
 
-P key : Paper
+   P key : Paper
 
 
 There's also TouchMode for mobile users.
