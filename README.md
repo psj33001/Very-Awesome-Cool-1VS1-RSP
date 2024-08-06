@@ -3,7 +3,6 @@ This is a common 1vs1 Rock Scissors Paper game with timer.
 
 
 ## How to Play
-< Control >
 Player 1
 
 Q key : Rock
@@ -11,6 +10,7 @@ Q key : Rock
 W key : Scissors
 
 E key : Paper
+
 
 Player 2
 
@@ -28,7 +28,6 @@ There's also TouchMode for mobile users.
 Players are given a few seconds to change their hands until the game ends.
 
 During that time the winner can change over and over.
-
 
 
 There's a WinTime system which decides the winner.
