@@ -1,5 +1,5 @@
 # VERY AWESOME COOL 1VS1 RSP
-This is a common 1vs1 Rock Scissors Paper game with some spetial rules.
+This is a common 1vs1 Rock Scissors Paper game with some special rules.
 
 
 ## How to Play
