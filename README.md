@@ -3,7 +3,7 @@ This is a common 1vs1 Rock Scissors Paper game with some special rules.
 
 
 ## How to Play
-Player 1
+< Player 1 >
 
 Q key : Rock
 
@@ -12,7 +12,7 @@ W key : Scissors
 E key : Paper
 
 
-Player 2
+< Player 2 >
 
 I key : Rock
 
@@ -42,4 +42,4 @@ Google Drive link : https://drive.google.com/drive/folders/1wln-SBbIOGr-RMhxWp7i
 
 Last update version : v1.1
 
-Platform : Android / Window
+Platform : Android / Windows
