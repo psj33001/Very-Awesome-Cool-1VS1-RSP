@@ -27,7 +27,7 @@ There's also TouchMode for mobile users.
 ## Rules
 Players are given a few seconds to change their hands until the game ends.
 
-During that time the winner can change over and over.
+During that time the winner can be changed over and over.
  
 
 There's a WinTime system which decides the winner.
